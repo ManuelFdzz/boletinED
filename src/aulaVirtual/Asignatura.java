@@ -34,5 +34,14 @@ public class Asignatura {
         for (Alumno a : this.alumnos) {
             if (a.getNombre().equals(alumno.nombre)) alumnos.remove(a);
         }
+
     }
+
+    public List<Alumno> getAlumnos() {
+        for (Alumno a : this.alumnos) {
+            System.out.println("Nombre del alumno " + a.getNombre() + ", el e-mail del alumno es " + a.getEmail());
+        }
+        return alumnos;
+    }
+
 }
