@@ -15,7 +15,7 @@ public class Usuario {
     private List<Asignatura> asignaturas;
 
 
-   //Contructor de la clase Usuario
+   //Contructor de la clase Usuario//
     public Usuario(String nombre, String email) {
         this.nombre = nombre;
         this.email = email;
