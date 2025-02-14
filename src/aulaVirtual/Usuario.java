@@ -14,11 +14,14 @@ public class Usuario {
     protected String email;
     private List<Asignatura> asignaturas;
 
+
+   //Contructor de la clase Usuario
     public Usuario(String nombre, String email) {
         this.nombre = nombre;
         this.email = email;
         this.asignaturas = new ArrayList<>();
     }
+
 
     public List<Asignatura> getAsignaturas() {
         return new ArrayList<>(asignaturas);
